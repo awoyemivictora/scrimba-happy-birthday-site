@@ -4,7 +4,9 @@ body {
     font-family: "Happy Monkey", system-ui;
     font-weight: 400;
     font-style: normal;
-    background-color: #407dc3;
+    /* background-color: #407dc3; */
+    /* background: linear-gradient(#1A63B7, #0e4f99); */
+    background: linear-gradient(#0e4f99 0%, #1A63B7 25%, green 75%, blue 100%);;
     color: white;
 }
 
@@ -13,15 +15,15 @@ h1, h2, h3, h4, p {
 }
 
 #heading {
-    background-color: #0e4f99;
+    background-color: #1A63B7;
     color: white;
     padding: 10px 20px;
     margin: 0px 0 35px 0;
 }
 
-#heading:hover {
+/* #heading:hover {
     background-color: #1A63B7;
-}
+} */
 
 #img {
     height: 200px;
