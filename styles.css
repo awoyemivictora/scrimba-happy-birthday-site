@@ -43,9 +43,17 @@ h1, h2, h3, h4, p {
 #header {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin: 5px 0 10px 0;
+}
+
+#header-ad {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    gap: 30px;
 }
 
 #bday-age {
@@ -55,7 +63,7 @@ h1, h2, h3, h4, p {
 }
 
 #bday-date {
-    margin: 0;
+    /* margin: 0; */
     background-color: #00b4d8;
     padding: 6px 12px;
     border-radius: 5px;
